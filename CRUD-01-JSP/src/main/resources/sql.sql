@@ -1,0 +1,9 @@
+CREATE DATABASE bancoCRUD01JSP;
+USE bancoCRUD01JSP;
+
+CREATE TABLE aluno(
+	idAluno int PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(255),
+	idade int
+);
+
